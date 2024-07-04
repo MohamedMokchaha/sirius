@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+.carousel-item img {
+  max-width: 100%; /* Largeur maximale pour s'adapter au container */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.carousel-item img {
+  max-width: 100%; /* Largeur maximale pour s'adapter au container */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}

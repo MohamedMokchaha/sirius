@@ -1,0 +1,7 @@
+.carousel-item img {
+  max-width: 90%; /* Réduire la largeur maximale à 90% de la largeur originale */
+  height: auto; /* Maintenir la hauteur automatique pour conserver les proportions */
+  display: block; /* Assurez-vous que l'image est affichée comme un bloc */
+  margin-left: auto; /* Centrez l'image sur le côté gauche */
+  margin-right: auto; /* Centrez l'image sur le côté droit */
+}
