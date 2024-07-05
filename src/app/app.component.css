@@ -1,14 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* Vous pouvez ajouter des styles globaux à ce fichier, et également importer d'autres fichiers de style */
 
 .carousel-item img {
-  max-width: 100%; /* Largeur maximale pour s'adapter au container */
+  max-width: 100%; /* Largeur maximale pour s'adapter au conteneur */
   height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
-.carousel-item img {
-  max-width: 100%; /* Largeur maximale pour s'adapter au container */
-  height: auto; /* Hauteur automatique pour conserver les proportions */
-}
 .footer {
   background-color: #333; /* Couleur de fond */
   color: white; /* Couleur du texte */
@@ -37,6 +33,7 @@
 .social-icons a:hover {
   color: #c31a5b; /* Couleur au survol */
 }
+
 .custom-btn {
   background-color: #c31a5b; /* Coral */
   color: white;
@@ -44,6 +41,20 @@
 }
 
 .custom-btn:hover {
-  background-color:#7c7b7b; /* Darken the coral color on hover */
-  border-color:#7c7b7b;
+  background-color: #7c7b7b; /* Assombrir la couleur corail au survol */
+  border-color: #7c7b7b;
+}
+
+/* Styles spécifiques pour le formulaire de recherche */
+.navbar .form-inline {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  align-items: center; /* Alignement vertical au centre */
+}
+
+.navbar .form-inline .form-control {
+  margin-right: 10px; /* Espacement entre l'entrée de recherche et le bouton */
+}
+
+.navbar .form-inline .btn {
+  margin-left: auto; /* Pour placer le bouton à droite */
 }

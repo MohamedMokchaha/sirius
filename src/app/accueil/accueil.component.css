@@ -128,12 +128,10 @@ body, h2, ul {
 .carousel-item img {
   max-width: 100%; /* Largeur maximale pour s'adapter au container */
   height: auto; /* Hauteur automatique pour conserver les proportions */
+  max-height: 600px; /* Hauteur maximale souhaitée */
 }
 
-.carousel-item img {
-  max-width: 100%; /* Largeur maximale pour s'adapter au container */
-  height: auto; /* Hauteur automatique pour conserver les proportions */
-}
+
 .footer {
   background-color: #333; /* Couleur de fond */
   color: white; /* Couleur du texte */
