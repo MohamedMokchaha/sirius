@@ -1,7 +1,9 @@
 
 <div class="container-fluid p-0 bg-beige">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" routerLink="/accueil">Sirius</a>
+    <a class="navbar-brand" routerLink="/accueil">
+      <img src="assets/alma.jpg" alt="Logo Alma" style="height: 40px;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,10 +27,11 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+        <button class="btn custom-btn my-2 my-sm-0" type="submit">Recherche</button>
       </form>
     </div>
   </nav>
+
   <div class="container mt-3">
     <!-- Contenu de la section Accueil -->
     <!-- Ici vous pouvez ajouter du contenu spécifique à l'accueil si nécessaire -->
@@ -36,11 +39,6 @@
 
   <!-- Contenu des autres sections -->
   <router-outlet></router-outlet>
-
 </div>
 
-<!-- Inclure jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
 
-<!-- Inclure Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>

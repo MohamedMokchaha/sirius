@@ -1,0 +1,90 @@
+.service-card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.75); /* Set transparency */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+/* Specific styles for each service card */
+.accompagner-card .card-title,
+.accompagner-card .card-text {
+  color: #007bff; /* Blue */
+}
+
+.sirius-call-center-card .card-title,
+.sirius-call-center-card .card-text {
+  color: #28a745; /* Green */
+}
+
+.offrir-card .card-title,
+.offrir-card .card-text {
+  color: #ffc107; /* Yellow */
+}
+
+.ameliorer-card .card-title,
+.ameliorer-card .card-text {
+  color: #dc3545; /* Red */
+}
+
+.gerer-card .card-title,
+.gerer-card .card-text {
+  color: #17a2b8; /* Teal */
+}
+
+.garantir-card .card-title,
+.garantir-card .card-text {
+  color: #6f42c1; /* Purple */
+}
+
+/* Specific styles for each offshore card */
+.outsourcing-card .card-title,
+.outsourcing-card .card-text {
+  color: #fff;
+  background-color: rgba(0, 123, 255, 0.75); /* Blue */
+}
+
+.hotel-card .card-title,
+.hotel-card .card-text {
+  color: #fff;
+  background-color: rgba(108, 117, 125, 0.75); /* Gray */
+}
+
+.delegation-card .card-title,
+.delegation-card .card-text {
+  color: #fff;
+  background-color: rgba(40, 167, 69, 0.75); /* Green */
+}
+
+.technologie-card .card-title,
+.technologie-card .card-text {
+  color: #fff;
+  background-color: rgba(220, 53, 69, 0.75); /* Red */
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-text {
+  color: #f8f9fa;
+}

@@ -9,3 +9,41 @@
   max-width: 100%; /* Largeur maximale pour s'adapter au container */
   height: auto; /* Hauteur automatique pour conserver les proportions */
 }
+.footer {
+  background-color: #333; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 30px 0; /* Espacement interne */
+  text-align: center; /* Centrage du contenu */
+}
+
+/* Styles pour la liste d'icônes de réseaux sociaux */
+.social-icons {
+  list-style-type: none; /* Pas de puces */
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  display: block;
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s; /* Animation de transition */
+}
+
+.social-icons a:hover {
+  color: #c31a5b; /* Couleur au survol */
+}
+.custom-btn {
+  background-color: #c31a5b; /* Coral */
+  color: white;
+  border-color: #c31a5b; /* Couleur de la bordure */
+}
+
+.custom-btn:hover {
+  background-color:#7c7b7b; /* Darken the coral color on hover */
+  border-color:#7c7b7b;
+}

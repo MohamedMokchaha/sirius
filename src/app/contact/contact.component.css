@@ -1,0 +1,19 @@
+.contact-card {
+  background-color: #ffc0cb; /* Rose */
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card .card-title {
+  color: #c31a5b; /* Blue */
+}
+
+.contact-card .card-text {
+  color: #6c757d; /* Gray */
+}

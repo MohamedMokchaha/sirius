@@ -5,3 +5,170 @@
   margin-left: auto; /* Centrez l'image sur le côté gauche */
   margin-right: auto; /* Centrez l'image sur le côté droit */
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto; /* Auto sur les côtés pour centrer */
+  background-color: #7c7b7b;
+  padding: 20px; /* Ajout de padding pour l'espace intérieur */
+  max-width: 1000px; /* Largeur maximale pour le contenu */
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* Fond blanc pour chaque colonne */
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.column h2 {
+  font-weight: bold; /* Texte en gras */
+  color: #ffffff; /* Texte en blanc */
+}
+
+.column:hover {
+  background-color: #c31a5b; /* Fond noir au survol */
+}
+
+.column:hover h2 {
+  color: #fff; /* Texte blanc au survol */
+}
+/* Réinitialisation des marges et paddings */
+body, h2, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.services-container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.services-content {
+  flex: 1;
+  padding-right: 20px; /* Espace à droite du texte */
+}
+
+.services-list {
+  flex: 1;
+  padding-left: 20px; /* Espace à gauche de la liste des services */
+}
+
+.services-container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc; /* Bordure pour délimiter le conteneur */
+  border-radius: 5px; /* Coins arrondis */
+  overflow: hidden; /* Pour gérer le contenu qui dépasse */
+}
+
+.services-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0; /* Fond couleur gris clair */
+}
+
+.services-list {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9; /* Fond couleur blanc */
+  border-left: 1px solid #ccc; /* Bordure à gauche pour séparer les sections */
+}
+
+.services-text h2,
+.services-list h2 {
+  text-align: center; /* Centrer le titre */
+  margin-bottom: 20px; /* Marge en bas du titre */
+}
+
+.services-list-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-list-items li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.services-list-items li:hover {
+  background-color: #c31a5b;
+}
+.button {
+  display: inline-block;
+  background-color: #c31a5b; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 12px 24px; /* Espacement interne */
+  text-align: center; /* Centrage du texte */
+  text-decoration: none; /* Pas de soulignement */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer */
+  transition: background-color 0.3s; /* Animation au survol */
+}
+
+.button:hover {
+  background-color: #7c7b7b; /* Couleur de fond au survol */
+}
+/* You can add global styles to this file, and also import other style files */
+
+.carousel-item img {
+  max-width: 100%; /* Largeur maximale pour s'adapter au container */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.carousel-item img {
+  max-width: 100%; /* Largeur maximale pour s'adapter au container */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+.footer {
+  background-color: #333; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 30px 0; /* Espacement interne */
+  text-align: center; /* Centrage du contenu */
+}
+
+/* Styles pour la liste d'icônes de réseaux sociaux */
+.social-icons {
+  list-style-type: none; /* Pas de puces */
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  display: block;
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s; /* Animation de transition */
+}
+
+.social-icons a:hover {
+  color: #c31a5b; /* Couleur au survol */
+}
+.custom-btn {
+  background-color: #c31a5b; /* Coral */
+  color: white;
+  border-color: #c31a5b; /* Couleur de la bordure */
+}
+
+.custom-btn:hover {
+  background-color:#7c7b7b; /* Darken the coral color on hover */
+  border-color:#7c7b7b;
+}
